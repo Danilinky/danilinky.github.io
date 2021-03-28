@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style type="text/css">
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: #382539;
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: Bolder;
+	border: 20px solid;
+	border-image-source: linear-gradient(45deg, rgb(123,214,256), rgb(237,106,159));
+	border-image-slice: 1;
+}
+
+.main-img-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 35vh;
+	margin-bottom: 10vh;
+
+}
+
+ .title{
+    width: 75%;
+   }
+
+.logo{
+	display: none;
+}
+
+.below{
+}
+
+.welcome{
+	font-size: 32px;
+	display: none;
+}
+
+.footer{
+	font-size: 26px;
+	margin-top: 1em;
+	line-height: 2em;
+}
+.icon{
+	height: 36px;
+	margin-right: 0.6em;
+}
+
+@media only screen and (max-width: 800px) {
+   .title{
+     display: none;
+   }
+
+.main-img-container{
+	margin-top: 10%;
+		margin-left: 50px;
+		margin-right: 50px;
+}
+
+   .logo{
+     display: block;
+     width: 60%;
+
+   }
+
+}
+}
+</style>
+<body>
+
+<div class="main-img-container">
+<img src="LiDanielDisenoLogo.svg" class="title">
+<img src="DanilinkyWhite.svg" class="logo">
+</div>
+
+<div class="below">
+	<div class="welcome">
+	Página web en construcción.<br>
+	Agradezco su preferencia.
+	</div>
+
+	<div class="footer">
+	<img src="phone.svg" class="icon">(646) 201 5018<br>
+	<a href="https://www.facebook.com/DanilinkyOficial/" target=”_blank”><img src="fb.svg" class="icon"></a>
+	<a href="https://www.behance.net/Danilinky" target=”_blank”><img src="Behance.svg" class="icon"></a>
+	<a href="mailto:danielgrafico4@gmail.com" target=”_blank”><img src="email.svg" class="icon"></a>
+	</div>
+</div>
+
+</body>
+</html>
